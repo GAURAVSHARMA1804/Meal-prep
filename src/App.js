@@ -8,8 +8,8 @@ function App() {
   const [search, setSerach] = useState("chiken");
   const [recipes, setRecipes] = useState([]);
 
-  const APP_ID = "YOUR_APPLICATION_ID";
-  const APP_KEY = "YOUR_APPLICATION_KEY";
+  const APP_ID = "2b95d463";
+  const APP_KEY = "2310a7f07899d1cfadc54cebaa31ee50";
 
   useEffect(() => {
     getRecipes();
